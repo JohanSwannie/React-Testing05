@@ -4,7 +4,7 @@ function App() {
       <h1>New Application</h1>
       <hr />
       <br />
-      <h4>Welcome Home Folks</h4>
+      <h4 id="welcome">Welcome Home Folks</h4>
     </div>
   );
 }
