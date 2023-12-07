@@ -3,7 +3,9 @@ import App from "./App";
 
 test("renders the text 'Welcome Home Folks'", () => {
   render(<App />);
-  const textDisplay = document.getElementById("welcome").innerHTML;
-  expect(textDisplay).toMatch(/Welcome Home Folks/i);
+  const textDisplay1 = document.getElementById("welcome").innerHTML;
+  const textDisplay2 = document.getElementById("mode").innerHTML;
+  const textDisplay3 = document.getElementById("safety").innerHTML;
+  expect(textDisplay1).toMatch(/Welcome Home Folks/i);
   expect(textDisplay.length).toBeGreaterThanOrEqual(10);
 });
