@@ -7,5 +7,7 @@ test("renders the text 'Welcome Home Folks'", () => {
   const textDisplay2 = document.getElementById("mode").innerHTML;
   const textDisplay3 = document.getElementById("safety").innerHTML;
   expect(textDisplay1).toMatch(/Welcome Home Folks/i);
+  expect(textDisplay2).toMatch(/Welcome Home Folks/i);
+  expect(textDisplay3).toMatch(/Welcome Home Folks/i);
   expect(textDisplay1.length).toBeGreaterThanOrEqual(10);
 });
