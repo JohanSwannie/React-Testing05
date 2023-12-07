@@ -8,7 +8,7 @@ function App() {
       <br />
       <h4 id="mode">We are in Testing Mode</h4>
       <br />
-      <h4>Fasten you Seatbelts!!!</h4>
+      <h4 id="safety">Fasten you Seatbelts!!!</h4>
     </div>
   );
 }
