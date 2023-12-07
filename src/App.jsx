@@ -6,7 +6,7 @@ function App() {
       <br />
       <h4 id="welcome">Welcome Home Folks</h4>
       <br />
-      <h4>We are in Testing Mode</h4>
+      <h4 id="mode">We are in Testing Mode</h4>
     </div>
   );
 }
