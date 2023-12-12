@@ -22,4 +22,11 @@ describe("All tests in one Baby Bear", () => {
     expect(textDisplay3).toMatch(/Fasten you Seatbelts!!!/i);
     expect(textDisplay3.length).toBeGreaterThanOrEqual(20);
   });
+
+  test("renders the text 'We are going for a fast ride!'", () => {
+    render(<App />);
+    const textDisplay4 = document.getElementById("ride").innerHTML;
+    expect(textDisplay4).toMatch(/We are going for a fast ride!/i);
+    expect(textDisplay4.length).toBeGreaterThanOrEqual(22);
+  });
 });
