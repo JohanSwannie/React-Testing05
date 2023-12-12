@@ -10,7 +10,7 @@ function App() {
       <br />
       <h4 id="safety">Fasten you Seatbelts!!!</h4>
       <br />
-      <h4 id="safety">We are going for a very fast ride!</h4>
+      <h4 id="ride">We are going for a fast ride!</h4>
     </div>
   );
 }
