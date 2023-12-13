@@ -25,5 +25,6 @@ h1 {
   border: 12px solid #000;
   border-style: double;
   border-radius: 53%;
+  outline: 3px solid red;
   padding: 150px;
 }
