@@ -11,6 +11,8 @@ function App() {
       <h4 id="safety">Fasten you Seatbelts!!!</h4>
       <br />
       <h4 id="ride">We are going for a very fast ride!</h4>
+      <br />
+      <h4 id="survive">Only those with steel on their teeth will survive!</h4>
     </div>
   );
 }
