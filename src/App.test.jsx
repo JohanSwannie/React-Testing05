@@ -29,4 +29,13 @@ describe("All tests in one Baby Bear", () => {
     expect(textDisplay4).toMatch(/We are going for a very fast ride!/i);
     expect(textDisplay4.length).toBeGreaterThanOrEqual(25);
   });
+
+  test("renders the text 'Only those with steel on their teeth will survive!'", () => {
+    render(<App />);
+    const textDisplay5 = document.getElementById("survive").innerHTML;
+    expect(textDisplay5).toMatch(
+      /Only those with steel on their teeth will survive!/i
+    );
+    expect(textDisplay5.length).toBeGreaterThanOrEqual(30);
+  });
 });
