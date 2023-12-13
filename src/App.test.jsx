@@ -27,6 +27,6 @@ describe("All tests in one Baby Bear", () => {
     render(<App />);
     const textDisplay4 = document.getElementById("ride").innerHTML;
     expect(textDisplay4).toMatch(/We are going for a very fast ride!/i);
-    expect(textDisplay4.length).toBeGreaterThanOrEqual(22);
+    expect(textDisplay4.length).toBeGreaterThanOrEqual(25);
   });
 });
