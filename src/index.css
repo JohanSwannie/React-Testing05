@@ -19,11 +19,11 @@ h1 {
   line-height: 1.1;
 }
 
-/* .app {
+.app {
   width: 650px;
   height: 650px;
   border: 12px solid #000;
   border-style: double;
   border-radius: 55%;
   padding: 150px;
-} */
+}
